@@ -34,6 +34,8 @@ docker run -v $(pwd):/terraform-module -w /terraform-module -it davidedimauro88/
 #### Environment Variables
 
 * `TERRAFORM_VERSION` - The version of Terraform to be installed
+* `BUILD_PACKAGES` - The packages used to build the image
+* `GEM_PACKAGES` - The Ruby gems used to run test kitchen and awspec
 
 ## Built With
 
